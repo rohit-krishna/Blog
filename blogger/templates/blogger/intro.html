@@ -1,0 +1,9 @@
+<body>
+
+    {% for post in post_list%}
+    <p>{{ post.author}}</p>
+    <p>{{ post.created_date}}</p>
+    <p>{{ post.published_date}}</p>
+    <p><a href="" >{{ post.title}}</a></p>
+{% endfor %}
+</body>
